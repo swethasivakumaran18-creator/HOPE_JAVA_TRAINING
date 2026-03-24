@@ -6,7 +6,7 @@ class Solution {
             for (int a : arr) {
                 sum += a;
             }
-            max = Math.max(max,sum);
+            max = Math.max(max, sum);
         }
         return max;
     }
